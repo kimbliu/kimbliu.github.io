@@ -12,7 +12,15 @@ Spring 2020, Spring 2021, Spring 2022
 
 Numerical methods from a user’s point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations.
 
-<br/><br/><br/>
+<br/><br/>
+
+#### SeeME
+Director of Teacher Training, Stanford University
+2019 - 2024
+
+Created and taught workshops for Stanford graduate students on hwo to plan interesting and accessible classes for middle- and high-school students in the surrounding community. Workshops were created in collaboration with the Stanford [Center for Teaching and Learning](https://ctl.stanford.edu/) using evidence-based and inclusive learning and teaching practices.
+
+<br/><br/>
 
 #### Thermal Science
 Teaching Assistant, California Institute of Technology
@@ -20,10 +28,3 @@ Fall 2016, Winter 2016, Spring 2016, Fall 2017, Winter 2017, Spring 2017
 
 An introduction to classical thermodynamics and transport with engineering applications. First and second laws; closed and open systems; properties of a pure substance; availability and irreversibility; generalized thermodynamic relations; gas and vapor power cycles; propulsion; mixtures; combustion and thermochemistry; chemical equilibrium; momentum and heat transfer including boundary layers with applications to internal and external flows.
 
-<br/><br/><br/>
-
-#### SeeME
-Director of Teacher Training, Stanford University
-2019 - 2024
-
-Created and taught workshops for Stanford graduate students on hwo to plan interesting and accessible classes for middle- and high-school students in the surrounding community. Workshops were created in collaboration with the Stanford [Center for Teaching and Learning](https://ctl.stanford.edu/) using evidence-based and inclusive learning and teaching practices.
