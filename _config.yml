@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: <b>Kim</b>berly
+title: Kimberly Liu# the website title (if blank, full name will be used instead)
+first_name: Kimberly
 middle_name:
 last_name: Liu
 email: kimliu@stanford.edu

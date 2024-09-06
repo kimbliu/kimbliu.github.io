@@ -12,7 +12,7 @@ Spring 2020, Spring 2021, Spring 2022
 
 Numerical methods from a user’s point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations.
 
-<br/><br/>
+<br/>
 
 #### SeeME
 Director of Teacher Training, Stanford University
@@ -20,7 +20,7 @@ Director of Teacher Training, Stanford University
 
 Created and taught workshops for Stanford graduate students on hwo to plan interesting and accessible classes for middle- and high-school students in the surrounding community. Workshops were created in collaboration with the Stanford [Center for Teaching and Learning](https://ctl.stanford.edu/) using evidence-based and inclusive learning and teaching practices.
 
-<br/><br/>
+<br/>
 
 #### Thermal Science
 Teaching Assistant, California Institute of Technology
