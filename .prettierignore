@@ -12,3 +12,7 @@ _sass/font-awesome/*.scss
 _data/repositories.yml
 _data/cv.yml
 _layouts/about.liquid
+assets/json/resume.json
+_pages/teaching.md
+_pages/about.md
+
