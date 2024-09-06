@@ -16,10 +16,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
+Hi! I'm Kim, and I'm a PhD candidate at Stanford University specializing in computational fluid dynamics. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent flow.
 
-PARAGRAPH ABOUT LOOKING FOR JOB  
-space space space  
-checking how formatting will look
+As I approach the completion of my PhD, I am actively seeking opportunities to apply my expertise in computational physics and numerical modeling. I am particularly interested in positions that tackle real-world challenges with practical applications. While my background lies in CFD, I'm generally interested in working on all sorts of complex physics problems that push the boundaries of scientific knowledge. For more details on my qualifications and experience, feel free to check out my [CV page](https://kimbliu.github.io/cv/).
 
 I earned my BS in mechanical engineering from Caltech in 2017 and my MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
