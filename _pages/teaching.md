@@ -2,14 +2,23 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 9
+nav: true
+nav_order: 2
 ---
 
-Introduction to Numerical Methods
-seeME
+### Introduction to Numerical Methods for Engineering
+Graduate course, Stanford University
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Spring 2020, Spring 2021, Spring 2022
 
-Organize your courses by years, topics, or universities, however you like!
+Numerical methods from a user’s point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations.
+
+### Thermal Science
+Undergraduate course, California Institute of Technology
+
+Fall 2016, Winter 2016, Spring 2016, Fall 2017, Winter 2017, Spring 2017
+
+An introduction to classical thermodynamics and transport with engineering applications. First and second laws; closed and open systems; properties of a pure substance; availability and irreversibility; generalized thermodynamic relations; gas and vapor power cycles; propulsion; mixtures; combustion and thermochemistry; chemical equilibrium; momentum and heat transfer including boundary layers with applications to internal and external flows.
+
+### SeeME
+
