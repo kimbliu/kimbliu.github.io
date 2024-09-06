@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-#### <span style="color:#b509ac">Introduction to Numerical Methods for Engineering </span>
+#### <span style="color:#b509ac"><b>Introduction to Numerical Methods for Engineering</b></span>
 Teaching Assistant, Stanford University  
 Spring 2020, Spring 2021, Spring 2022
 
@@ -14,7 +14,7 @@ Numerical methods from a user’s point of view. Lagrange interpolation, splines
 
 <br/>
 
-<span style="color:#b509ac"><h4>SeeME</h4></span>
+#### <span style="color:#b509ac"><b>SeeME</b></span>
 Director of Teacher Training, Stanford University  
 2019 - 2024
 
@@ -22,7 +22,7 @@ Director of Teacher Training, Stanford University
 
 <br/>
 
-#### Thermal Science
+#### <span style="color:#b509ac"><b>Thermal Science</b></span>
 Teaching Assistant, California Institute of Technology  
 Fall 2016, Winter 2016, Spring 2016, Fall 2017, Winter 2017, Spring 2017
 
