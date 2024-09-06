@@ -12,13 +12,6 @@
     - title: Ph.D. Mechanical Engineering
       institution: Stanford University
       year: 2019 - 2024
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: M.S. Mechanical Engineering
       institution: Stanford University
       year: 2017 - 2019
@@ -72,9 +65,9 @@
   contents:
     - title: Teaching Assistant
       institution: Stanford University
-      year: 2020 - 2022
       description:
         - Introduction to Numerical Methods for Engineering (ME 300C/CME 206) 
+        - Spring 2020, Spring 2021, Spring 2022
         - Created and graded problem sets, held weekly office hours
         - Master's level class covering analysis of numerical methods for accuracy, stability, and convergence
 
