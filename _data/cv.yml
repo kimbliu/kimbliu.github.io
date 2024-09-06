@@ -72,7 +72,7 @@
   contents:
     - title: Teaching Assistant
       institution: Stanford University
-      year: 2020, 2021, 2022
+      year: 2020 - 2022
       description:
         - Introduction to Numerical Methods for Engineering (ME 300C/CME 206) 
         - Created and graded problem sets, held weekly office hours
@@ -91,17 +91,17 @@
   type: time_table
   contents:
     - title: SeeME
-      institution: Director of Teacher Training
       year: 2019 - 2024
       description:
-        - SeeME is the official Stanford Mechanical Engineering outreach club
-        -  Created and taught workshops for Stanford graduate students on how to plan interesting and accessible classes for middle- and high-school students in the surrounding community using evidence-based and inclusive learning and teaching practices
+        - Director of Teacher Training
+        - Official Stanford Mechanical Engineering outreach club
+        - Created and taught workshops for Stanford graduate students on how to plan interesting and accessible classes for middle- and high-school students in the surrounding community using evidence-based and inclusive learning and teaching practices
     - title: Stanford Mechanical Engineering PhD Mentorship Program
       year: 2020 - 2022
       description:
         - Mentored two Mechanical Engineering PhD students for two years
     - title: Graduate Society of Women Engineers
-      institution: Outreach Board Member
       year: 2017 - 2019
       description:
-        - Organized for memberes to hold lab tours and informal coffee chats with members of Stanford's undergraduate chapter of SWE
+        - Member of Outreach Board
+        - Organized for members to hold lab tours and informal coffee chats with members of Stanford's undergraduate chapter of SWE
