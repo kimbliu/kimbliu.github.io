@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
+Hi! I'm <b>Kim</b> and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
 
 PARAGRAPH ABOUT LOOKING FOR JOB  
 space space space  
