@@ -18,7 +18,7 @@ Numerical methods from a user’s point of view. Lagrange interpolation, splines
 Director of Teacher Training, Stanford University  
 2019 - 2024
 
-[SeeME](https://seeme.stnaford.edu) is the official Stanford Mechanical Engineering outreach club. As Director of Teacher Training, I created and taught workshops for Stanford graduate students on how to plan interesting and accessible classes for middle- and high-school students in the surrounding community. Workshops were created in collaboration with the Stanford [Center for Teaching and Learning](https://ctl.stanford.edu/) using evidence-based and inclusive learning and teaching practices.
+[SeeME](https://seeme.stanford.edu) is the official Stanford Mechanical Engineering outreach club. As Director of Teacher Training, I created and taught workshops for Stanford graduate students on how to plan interesting and accessible classes for middle- and high-school students in the surrounding community. Workshops were created in collaboration with the Stanford [Center for Teaching and Learning](https://ctl.stanford.edu/) using evidence-based and inclusive learning and teaching practices.
 
 <br/>
 
