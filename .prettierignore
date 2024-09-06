@@ -15,4 +15,4 @@ _layouts/about.liquid
 assets/json/resume.json
 _pages/teaching.md
 _pages/about.md
-
+_config.yml
