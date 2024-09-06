@@ -18,4 +18,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
 
+PARAGRAPH ABOUT LOOKING FOR JOB  
+space space space  
+checking how formatting will look
+
 I earned my BS in mechanical engineering from Caltech in 2017 and my MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
