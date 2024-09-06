@@ -18,6 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Kim and I have two cats.
+Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned my BS in mechanical engineering at Caltech in 2017 and y MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
+
+![Mimi and Sheena]{./assets/img/cats.png}
