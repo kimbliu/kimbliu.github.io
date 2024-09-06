@@ -1,13 +1,11 @@
-- title: General Information
+- title: Contact Info
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Kimberly Liu
     - name: Email
       value: kimliu@stanford.edu
-    - name: Languages
-      value: English, German
-
+    
 - title: Education
   type: time_table
   contents:
@@ -28,52 +26,57 @@
       institution: California Institute of Technology
       year: 2013 - 2017
       
-- title: Work Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Stanford University
+      year: 2017 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - |
+          Advisor: Dr. Ali Mani
+        - Direct numerical simulations of particle-laden and multiphase turbulent flow
+        - Implementation and validation of multiphase modelling of superhydrophobic surfaces and dynamic air-water interfaces
+        - Evaluated pressure-driven wall-normal jets for drag reduction in channel flow and boundary layer flow
+        - Developed macroscopic forcing method for superhydrophobic surfaces and studied nonlocality in slip length operator
+    - title: Undergraduate Research Fellow
+      institution: California Institute of Technology
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
+        - |
+          Advisor: Dr. Tim Colonius
+        - Direct numerical simulation of flow over spinning disks
+        - Analyzed effects of tip speed ratio and angle of attack on aerodynamic forces
+ 
 - title: Publications
   type: list
   contents:
-    - Liu K, Mani A. “Direct measurement of eddy viscosity and slip length operator for turbulent channel flow over superhydrophobic surfaces.” Accepted for publication in 35th Symposium on Naval Hydrodynamics (2024).
-    - Zahtila T, Chan L, Ooi A, Liu K, Benjamin M, Iaccarino G. “Influence of Miura-origami shapes on drag in turbulent flows.” Proceedings of the Summer Program 2022.
-    - Liu K, Mani A. “On the nonlocality of the slip length operator for scalar and momentum transport on patterned superhydrophobic surfaces in turbulent flow.” Manuscript in preparation.
-    - Liu K, Mani A. “A modified Clauser chart method for determination of drag on superhydrophobic surfaces.” Manuscript in preparation.
+    - Liu K, Mani A. “Direct measurement of eddy viscosity and slip length operator for turbulent channel flow over superhydrophobic surfaces.” <i>Accepted for publication in 35th Symposium on Naval Hydrodynamics (2024)</i>.
+    - Zahtila T, Chan L, Ooi A, Liu K, Benjamin M, Iaccarino G. “Influence of Miura-origami shapes on drag in turbulent flows.” <i>Proceedings of the Summer Program 2022</i>.
+    - Liu K, Mani A. “On the nonlocality of the slip length operator for scalar and momentum transport on patterned superhydrophobic surfaces in turbulent flow.” <i>Manuscript in preparation</i>.
+    - Liu K, Mani A. “A modified Clauser chart method for determination of drag on superhydrophobic surfaces.” <i>Manuscript in preparation</i>.
 
 - title: Presentations
   type: list
+  contents:
+    - Liu K, Mani A. Direct measurement of eddy viscosity and slip length operator for turbulent channel flow over superhydrophobic surfaces. 35th Symposium on Naval Hydrodynamics. July 2024.
+    - Liu K, Mani A. Direct measurement of slip length operator and eddy viscosity fields for turbulent flows over superhydrophobic surfaces. 76th Annual Meeting of the APS Division of Fluid Dynamics. November 2023.
+    - Liu K, Mani A. Assessment of Clauser chart method for determination of drag on superhydrophobic surfaces. 75th Annual Meeting of the APS Division of Fluid Dynamics. November 2022.
+    - Liu K, Mani A. Drag reduction effects of dynamic superhydrophobic surface in turbulent channel. 74th Annual Meeting of the APS Division of Fluid Dynamics. November 2021.
+    - Liu K, Mani A. Analysis of wall-normal jets induced by bubble oscillations on superhydrophobic surfaces. 73rd Annual Meeting of the APS Division of Fluid Dynamics. November 2020.
+    - Liu K, Mani A. Investigation of turbulent flows over superhydrophobic surfaces with oscillatory slip length. 72nd Annual Meeting of the APS Division of Fluid Dynamics. November 2019.
+    - Liu K, Esmaily M, Mani A. A novel approach for separation of inertial particles. 71st Meeting of the APS Division of Fluid Dynamics. November 2018.
 
 - title: Teaching Experience
-  type: list
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Stanford University
+      year: 2020, 2021, 2022
+      description:
+        - Introduction to Numerical Methods for Engineering (ME 300C/CME 206) 
+        - Created and graded problem sets, held weekly office hours
+        - Master's level class covering analysis of numerical methods for accuracy, stability, and convergence
 
 - title: Other Experience
   type: list
@@ -82,5 +85,23 @@
     - |
       Programming skills: Python, C++, Fortran, MATLAB, MPI, CUDA
     - |
-      Selected coursework: Advnaced Topics in Turbulence, Flow Instability, Parallel Computing, High Performance Computing, Asymptotic Methods in Computational Engineering, Deep Learning
+      Selected coursework: Advanced Topics in Turbulence, Flow Instability, Parallel Computing, High Performance Computing, Asymptotic Methods in Computational Engineering, Deep Learning
 
+- title: Service
+  type: time_table
+  contents:
+    - title: SeeME
+      institution: Director of Teacher Training
+      year: 2019 - 2024
+      description:
+        - SeeME is the official Stanford Mechanical Engineering outreach club
+        -  Created and taught workshops for Stanford graduate students on how to plan interesting and accessible classes for middle- and high-school students in the surrounding community using evidence-based and inclusive learning and teaching practices
+    - title: Stanford Mechanical Engineering PhD Mentorship Program
+      year: 2020 - 2022
+      description:
+        - Mentored two Mechanical Engineering PhD students for two years
+    - title: Graduate Society of Women Engineers
+      institution: Outreach Board Member
+      year: 2017 - 2019
+      description:
+        - Organized for memberes to hold lab tours and informal coffee chats with members of Stanford's undergraduate chapter of SWE
