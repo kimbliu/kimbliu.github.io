@@ -23,7 +23,7 @@ Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computa
 I earned my BS in mechanical engineering from Caltech in 2017 and my MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-5 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cats.png" title="Mimi and Sheena" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -1,20 +1,19 @@
 {
-  "basics": [
-    "name": "Kimberly Liu",
+  "basics": {
+    "name": "",
     "label": "",
     "image": "",
-    "email": "kimliu@stanford.edu",
+    "email": "",
     "phone": "",
-    "url": "https://kimbliu.github.io",
+    "url": "",
     "summary": "",
     "location": "",
     "profiles": ""
-  ],
+  },
   "education": [
     {
       "institution": "Stanford University",
       "url":
-      "location": "Stanford, CA",
       "area": "Mechanical Engineering",
       "studyType": "Ph.D.",
       "startDate": "2019",
@@ -22,10 +21,9 @@
       "score": "",
       "courses": ""
     },
-
     {
       "institution": "Stanford University",
-      "location": "Stanford, CA",
+      "url": "",
       "area": "Mechanical Engineering",
       "studyType": "M.S.",
       "startDate": "2017",
@@ -33,14 +31,13 @@
     },
     {
       "institution": "California Institue of Technology",
-      "location": "Pasadena, CA",
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
       "startDate": "2013",
       "endDate": "2017"
     }
   ],
-  "work experience": [
+  "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
