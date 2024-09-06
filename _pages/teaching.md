@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-#### Introduction to Numerical Methods for Engineering
+#### <span style="color:#b509ac">Introduction to Numerical Methods for Engineering </span>
 Teaching Assistant, Stanford University  
 Spring 2020, Spring 2021, Spring 2022
 
@@ -14,7 +14,7 @@ Numerical methods from a user’s point of view. Lagrange interpolation, splines
 
 <br/>
 
-#### SeeME
+<span style="color:#b509ac"><h4>SeeME</h4></span>
 Director of Teacher Training, Stanford University  
 2019 - 2024
 
