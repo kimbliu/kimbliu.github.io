@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Conjugate Heat Transfer in a Ribbed Channel
+description: Final project for ME469 (Computational Methods in Fluid Dynamics)
 img:
 importance: 3
-category: fun
+category: Classes
 ---
 
 Every project has a beautiful feature showcase page.

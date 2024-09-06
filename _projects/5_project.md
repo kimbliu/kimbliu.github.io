@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Galilean Invariance Preserving Deep Learning for Canonical Fluid Flows
+description: Final project for CS230 (Deep Learning)
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: Classes
 ---
 
 Every project has a beautiful feature showcase page.
