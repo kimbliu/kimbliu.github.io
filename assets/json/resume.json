@@ -32,11 +32,18 @@
   ],
   "work": [
     {
-      "name": "Research Assistant",
-      "position": "Mani Group, Stanford University",
+      "name": "Ali Mani Group, Stanford University",
+      "position": "Research Assistant", 
       "startDate": "2017",
       "endDate": "2024",
-      "highlights": ["detail 1", "detail 2"]
+      "highlights": ["Direct numerical simulations of particle-laden and multiphase turbulent flow", "Implementation and validation of multiphase modelling for superhydrophobic surfaces and dynamic air-water interfaces", "Evaluated pressure-driven wall-normal jets for drag reduction in channel flow and boundary layer flow", "Developed macroscopic forcing method for superhydrophobic surfaces and studied nonlocality in slip length operator"]
+    },
+    {
+      "name": "Tim Colonius Group, California Institute of Technology",
+      "position": "Undergraduate Research Fellow",
+      "startDate": "2016",
+      "endDate": "2016",
+      "highlights": ["Direct numerical simulation of flow over spinning disks", "Analyzed effects of tip speed ratio and angle of attack on aerodynamic forces"]
     }
   ],
   "volunteer": [
