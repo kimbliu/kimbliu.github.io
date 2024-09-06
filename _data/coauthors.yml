@@ -1,11 +1,3 @@
-"mani":
-  - firstname: ["Ali", "A."]
-    url: https://manigroup.stanford.edu
-
 "gonzalez":
   - firstname: ["Carlos", "C.", "Carlos Alejandro", "C.A."]
     url: https://cagonzal.github.io
-
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
