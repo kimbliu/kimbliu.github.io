@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
+title: Macroscopic Forcing Method for Superhydrophobic Surfaces
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/4.jpg
 importance: 1
 category: Research
 related_publications: true

@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: Research
-related_publications: true
+title: Application of Lagrangian Dynamic SGS in Wall-Modeled LES
+description: Final project for ME461 (Advanced Topics in Turbulence)
+img:
+importance: 4
+category: Classes
 ---
+
+The goal of this project was to follow the procedures described in [A Lagrangian dynamic subgrid-scale model of turbulence](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/lagrangian-dynamic-subgridscale-model-of-turbulence/783398B2D0BE53C120151E4E911CA833) and evaluate the model performance for fully developed channel flow.
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -44,8 +46,8 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">

@@ -18,7 +18,7 @@ text
 <br/>
 
 #### <span style="color:#b509ac"><b>Modeling of Dynamic Air-Water Interfaces</b></span>
-In collaboration with Dr. Cong Wang and Dr. Morteza Gharib
+In collaboration with [Dr. Cong Wang](https://engineering.uiowa.edu/directory/cong-wang) and [Dr. Morteza Gharib](https://www.gharib.caltech.edu/)
 
 text
 
