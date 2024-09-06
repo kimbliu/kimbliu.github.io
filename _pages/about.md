@@ -20,6 +20,14 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I'm Kim and I'm a PhD candidate at Stanford University interested in computational physics and numerical modeling. My current research with the [Mani Group](https://manigroup.stanford.edu) is on drag reduction effects of superhydrophobic surfaces in turbulent fluid flow.
 
-I earned my BS in mechanical engineering at Caltech in 2017 and y MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
+I earned my BS in mechanical engineering from Caltech in 2017 and my MS in mechanical engineering from Stanford in 2019. In my free time, I enjoy rock climbing, playing piano, and spoiling my cats.
 
-![Mimi and Sheena]{./assets/img/cats.png}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cats.png" title="Mimi and Sheena" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Two spoiled cats.
+</div>
+
