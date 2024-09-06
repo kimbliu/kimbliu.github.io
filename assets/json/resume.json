@@ -1,5 +1,5 @@
 {
-  "basics": [
+  "basics": {
     "name": "Kimberly Liu",
     "label": "",
     "image": "",
@@ -9,7 +9,7 @@
     "summary": "",
     "location": "",
     "profiles": ""
-  ],
+  },
   "education": [
     {
       "institution": "Stanford University",
