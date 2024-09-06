@@ -1,14 +1,8 @@
 {
   "basics": {
     "name": "Kimberly Liu",
-    "label": "",
-    "image": "",
-    "email": "",
-    "phone": "",
-    "url": "",
-    "summary": "",
-    "location": "",
-    "profiles": ""
+    "email": "kimliu@stanford.edu",
+    "phone": "858-216-6683"
   },
   "education": [
     {
@@ -30,7 +24,7 @@
       "endDate": "2017"
     }
   ],
-  "work": [
+  "work experience": [
     {
       "name": "Ali Mani Group, Stanford University",
       "position": "Research Assistant", 
