@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>PhD Candidate at Stanford University</p>
-    <p>Computational Fluids</p>
+    <p>PhD Candidate</p>
+    <p>Stanford University</p>
     <p>kimliu[at]stanford[dot]edu</p>
     
 news: false # includes a list of news items
