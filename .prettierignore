@@ -9,10 +9,10 @@ assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
-_data/repositories.yml
-_data/cv.yml
-_layouts/about.liquid
-assets/json/resume.json
-_pages/teaching.md
-_pages/about.md
-_config.yml
+# _data/repositories.yml
+# _data/cv.yml
+# _layouts/about.liquid
+# assets/json/resume.json
+# _pages/teaching.md
+# _pages/about.md
+# _config.yml
