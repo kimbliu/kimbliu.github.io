@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-#### <span style="color:#b509ac"><b>Introduction to Numerical Methods for Engineering</b></span>
+#### <span style="color:var(--global-theme-color"><b>Introduction to Numerical Methods for Engineering</b></span>
 Teaching Assistant, Stanford University  
 Spring 2020, Spring 2021, Spring 2022
 
