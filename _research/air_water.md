@@ -44,6 +44,10 @@ We further validate our single-phase model by comparing the drag reduction of a 
 
 <br/>
 
+<p style="text-align:center;">[Back to Research](https://kimbliu.github.io/research/)</p>
+
+</br>
+
 #### References
 
 Wang C, Gharib M. "Effect of the dynamic slip boundary condition on the near-wall turbulent boundary layer." <i>Journal of Fluid Mechanics</i>, 901, 2020.

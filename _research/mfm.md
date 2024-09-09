@@ -58,6 +58,10 @@ The usage of our measured nonlocal eddy viscosity and slip length operators sign
 
 <br/>
 
+<p style="text-align:center;">[Back to Research](https://kimbliu.github.io/research/)</p>
+
+<br/>
+
 #### References
 
 Seo J, Garcia-Mayoral R, Mani A. "Pressure fluctuations and interfacial robustness in turbulent flows over superhydrophobic surfaces." <i>Journal of Fluid Mechanics</i>, 783: 448-473, 2015.
