@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Modeling of Dynamic Air-Water Interfaces
-description: with background image
+title: Modeling of Dynamic Air-Water Interfaces for Drag Reduction
+description:
 img: assets/img/12.jpg
 importance: 1
 category: Research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project is motivated by a series of experiments carried out at Caltech by [Cong Wang](https://engineering.uiowa.edu/directory/cong-wang) and [Mory Gharib](https://www.gharib.caltech.edu) on superhydrophobic surfaces. These experiments were able to maintain stable oscillating air films in a turbulent boundary layer, and achieved up to 30% drag reduction in certain cases. The goal of this work is to use direct numerical simulation to develop quantitative understanding of the role of bubble oscillation in modifying drag.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -23,7 +21,7 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bubble_model.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -37,7 +35,15 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/far_field.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/video/bub_profile.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
