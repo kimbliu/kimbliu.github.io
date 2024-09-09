@@ -44,7 +44,7 @@ We further validate our single-phase model by comparing the drag reduction of a 
 
 <br/>
 
-<p style="text-align:center;">[Back to Research](https://kimbliu.github.io/research/)</p>
+<p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
 
 </br>
 
