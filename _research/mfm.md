@@ -9,11 +9,22 @@ category: Research
 
 Superhydrophobic surfaces (SHS) are textured hydrophobic surfaces which have the ability to trap air pockets when immersed in water. This can result in significant drag reduction, due to the substantial effective slip velocity which forms at the surface. We seek to understand the difference in using a homogenized slip (Navier slip length) boundary condition and pattern-resolved slip boundary condition in the context of momentum mixing.
 
-<!-- SHS figure -->
+<br/>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/shs.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+<br/>
 
 The macroscopic forcing method (MFM) is a statistical technique that allows for direct measurement of the nonlocal eddy viscosity operator from DNS data. We use MFM to compare the eddy viscosity operators of a turbulent channel over patterned SHS of both boundary conditions in the limit of large pattern wavelength.
 
-We futher extend the evaluation of nonlocal eddy viscosity to consideration of a nonlocal slip length operator. Though the slip length boundray condition has, in the past, been limited to dependence on local velocity gradients at the surface, we show that it can also depend on velocity gradients in a layer with finite thickness.
+We futher extend the evaluation of nonlocal eddy viscosity to consideration of a nonlocal slip length operator. Though the slip length boundary condition has, in the past, been limited to dependence on local velocity gradients at the surface, we show that it can also depend on velocity gradients in a layer with finite thickness.
 
 <br/>
 
@@ -29,12 +40,23 @@ We futher extend the evaluation of nonlocal eddy viscosity to consideration of a
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
+<br/>
+
 
 The usage of our measured nonlocal eddy viscosity and slip length operators significantly improves solutions to the Reynolds-averaged Navier Stokes (RANS) equations.
 
 <br/>
 
-<!-- RANS -->
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rans.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+<br/>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
