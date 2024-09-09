@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Separation of Inertial Particles
-description: a project with a background image and giscus comments
+description:
 img: assets/img/3.jpg
 importance: 2
 category: Research
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

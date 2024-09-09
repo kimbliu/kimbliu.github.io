@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Macroscopic Forcing Method for Superhydrophobic Surfaces
-description: with background image
+description:
 img: assets/img/project_preview/mfm_preview.png
 importance: 1
 category: Research
-related_publications: true
 ---
 
 Superhydrophobic surfaces (SHS) are textured hydrophobic surfaces which have the ability to trap air pockets when immersed in water. This can result in significant drag reduction, due to the substantial effective slip velocity which forms at the surface. We seek to understand the difference in using a homogenized slip (Navier slip length) boundary condition and pattern-resolved slip boundary condition in the context of momentum mixing.

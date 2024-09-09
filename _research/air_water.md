@@ -5,7 +5,6 @@ description:
 img: assets/img/project_preview/air_water_preview.png
 importance: 1
 category: Research
-related_publications: true
 ---
 
 This project is motivated by a series of experiments carried out at Caltech by [Cong Wang](https://engineering.uiowa.edu/directory/cong-wang) and [Mory Gharib](https://www.gharib.caltech.edu) on superhydrophobic surfaces. These experiments were able to maintain stable oscillating air films in a turbulent boundary layer, and achieved up to 30% drag reduction in certain cases. The goal of this work is to use direct numerical simulation to develop quantitative understanding of the role of bubble oscillation in modifying drag.
@@ -16,7 +15,7 @@ In quiescent flow, this bubble model accurately captures the wall normal velocit
 
 <br/>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bubble_model.png" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -28,11 +27,13 @@ In quiescent flow, this bubble model accurately captures the wall normal velocit
     Left: Schematic of single-phase bubble model. Right: Far field velocity profiles from experiments and simulations.
 </div>
 
+<br/>
+
 We further validate our single-phase model by comparing the drag reduction of a single bubble in laminar boundary layer flow to analogous results from multiphase simulations.
 
 <br/>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
