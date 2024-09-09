@@ -33,7 +33,7 @@ We further validate our single-phase model by comparing the drag reduction of a 
 <br/>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/bub_profile.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
