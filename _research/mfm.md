@@ -2,7 +2,7 @@
 layout: page
 title: Macroscopic Forcing Method for Superhydrophobic Surfaces
 description: with background image
-img: assets/img/4.jpg
+img: assets/img/project_preview/mfm_preview.png
 importance: 1
 category: Research
 related_publications: true
@@ -19,10 +19,10 @@ We futher extend the evaluation of nonlocal eddy viscosity to consideration of a
 <br/>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/eddy_viscosity.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/slip_kernel.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

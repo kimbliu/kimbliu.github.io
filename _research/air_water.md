@@ -18,10 +18,10 @@ In quiescent flow, this bubble model accurately captures the wall normal velocit
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bubble_model.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bubble_model.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/far_field.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/far_field.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,7 +34,7 @@ We further validate our single-phase model by comparing the drag reduction of a 
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/bub_profile.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
