@@ -198,7 +198,7 @@ collections:
     permalink: /:collection/:title/
   research:
     output: true
-    permalink: /:colleciton/:title/
+    permalink: /:collection/:title/
   
 announcements:
   enabled: true
