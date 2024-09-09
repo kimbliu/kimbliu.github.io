@@ -35,17 +35,21 @@ We further validate our single-phase model by comparing the drag reduction of a 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
     Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
 </div>
 
+<br/>
 
-<!--
-<video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/assets/video/bub_profile.mp4" type="video/mp4">
-</video>
--->
+#### References
 
+Wang C, Gharib M. "Effect of the dynamic slip boundary condition on the near-wall turbulent boundary layer." <i>Journal of Fluid Mechanics</i>, 901, 2020.
+
+Wang C, Gharib M. "Physics of a strongly oscillating axisymmetric air-water interface with a fixed boundary condition." <i>Physical Review Fluids</i>, 7(4): 044003, 2022
+
+Mirjalili S, Mani A. "Consistent, energy-conserving momentum transport for simulations of two-phase flows using the phase field equations." <i>Journal of Computational Physics</i>, 426: 109918, 2021.
+
+Mirjalili S, Ivey CB, Mani A. "A conservative diffuse interface method for two-phase flows with provable boundedness properties." <i>Journal of Computational Physics</i>, 401: 109006, 2020.
