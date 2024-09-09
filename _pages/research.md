@@ -5,7 +5,7 @@ permalink: /research/
 nav: true
 nav_order: 1
 display_categories: [Research]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
