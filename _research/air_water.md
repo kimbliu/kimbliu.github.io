@@ -14,6 +14,8 @@ We introduce a single-phase bubble model to perform computationally intensive si
 
 In quiescent flow, this bubble model accurately captures the wall normal velocity field far from the interface.
 
+<br/>
+
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bubble_model.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -23,23 +25,26 @@ In quiescent flow, this bubble model accurately captures the wall normal velocit
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: Schematic of single-phase bubble model. Right: Far field velocity profiles from experiments and simulations.
 </div>
 
 We further validate our single-phase model by comparing the drag reduction of a single bubble in laminar boundary layer flow to analogous results from multiphase simulations.
 
-<!--
+<br/>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/bub_profile.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/bub_profile.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
 </div>
--->
 
+
+<!--
 <video autoplay="autoplay" loop="loop" width="768" height="512">
   <source src="/assets/video/bub_profile.mp4" type="video/mp4">
 </video>
+-->
 
