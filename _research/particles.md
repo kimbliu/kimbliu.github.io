@@ -69,7 +69,7 @@ In this work, we study the segregation of inertial particles of different size i
 <br/>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/particle_sep.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
@@ -80,8 +80,6 @@ In this work, we study the segregation of inertial particles of different size i
 <br/>
 
 <p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
-
-<br/>
 
 #### References
 

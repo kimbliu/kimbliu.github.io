@@ -56,9 +56,9 @@ The usage of our measured nonlocal eddy viscosity and slip length operators sign
     DNS mean velocity (Pattern-Resolved Slip) and solutions to the RANS equations with local and nonlocal operators.
 </div>
 
-<p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
-
 <br/>
+
+<p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
 
 #### References
 

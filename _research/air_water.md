@@ -42,9 +42,9 @@ We further validate our single-phase model by comparing the drag reduction of a 
     Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
 </div>
 
-<p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
-
 <br/>
+
+<p style="text-align:center;"><a href="https://kimbliu.github.io/research/">Back to Research</a></p>
 
 #### References
 
