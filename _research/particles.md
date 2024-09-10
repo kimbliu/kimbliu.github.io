@@ -9,15 +9,6 @@ category: Research
 
 This project studies the segregation of inertial particles of different size in spatially and temporally varying flows. The clustering or mixing behavior of particles in these flows is strongly governed by particle density and size. We target the regime where Stokes number is order 1, and the difference between clustering and separation occurs over a highly narrow band.
 
-Clustering of particles in these flows occurs over a highly narrow band of Stokes number.
-
-
-The clustering or mixing behavior of particles in these flows is trongly governed by
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
 <br/>
 
 <div class="row justify-content-sm-center">
@@ -26,27 +17,12 @@ Make your photos 1/3, 2/3, or full width.
     </div>
 </div>
 <div class="caption">
-    Superhydrophobic surface geometries with streamwise-aligned ridges and square posts.
+    Displacement of two particles with 2% difference in particle relaxation time.
 </div>
 
 <br/>
 
-blablah
-
-<br/>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lambda_specific.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Superhydrophobic surface geometries with streamwise-aligned ridges and square posts.
-</div>
-
-<br/>
-
-blablah
+The mixing behavior can be characterized by a Lyapunov exponent, measured by an exponential envelope fitted to particle displacement over time. Positive Lyapunov exponents represent separation and negative Lyapunov exponents represent clustering.
 
 <br/>
 
@@ -56,15 +32,12 @@ blablah
     </div>
 </div>
 <div class="caption">
-    Superhydrophobic surface geometries with streamwise-aligned ridges and square posts.
+    Lyapunov exponent map as a function of particle relaxation time and flow amplitude.
 </div>
 
 <br/>
 
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-In this work, we study the segregation of inertial particles of different size in spatially and temporally varying flows. At first, we focus on flows with spatially uniform velocity gradient tensor but with time-harmonic amplitudes. The clustering or mixing behavior of particles in these flows is strongly governed by particle density and size. Specifically, it has been shown that under certain conditions, clustering occurs over a highly narrow band of Stokes number (Esmaily-Moghadam and Mani, 2017, arXiv:1704.00370). This study aims to analyze design concepts that utilize this phenomenon for precise separation applications. We present three performance measures that help assess these devices: a separation resolution, a minimum device size requirement, and a measure of robustness to perturbations (e.g., due to particle collisions). Furthermore, by extending the design space to systems involving periodic but non-harmonic signals, we develop key guidelines for the design of such separation devices. 
+We can then choose flow amplitudes such that a specific particle will behave differently from other particles present in the system, effectively separating different types of particles over sufficiently long time scales. Notably, the separated particle does not need to have the largest or smallest particle relaxation time because the bands of our Lyapunov exponent map are very narrow. In the video below, the blue particles are filtered from the red and green particles after approximately ten periods of temporal variation.
 
 <br/>
 
@@ -74,7 +47,7 @@ In this work, we study the segregation of inertial particles of different size i
     </div>
 </div>
 <div class="caption">
-    Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
+    Separation of particles. The blue particles have a particle relaxation time that lies between that of the red and the green particles.
 </div>
 
 <br/>
