@@ -37,7 +37,7 @@ We futher extend the evaluation of nonlocal eddy viscosity to consideration of a
     </div>
 </div>
 <div class="caption">
-    Left: Nonlocal eddy viscosity. Right: Nonlocal slip length kernel.
+    Left: Nonlocal eddy viscosity. Right: Nonlocal slip length kernel for several different geometries.
 </div>
 
 <br/>
