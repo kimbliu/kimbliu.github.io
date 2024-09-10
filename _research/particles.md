@@ -70,15 +70,12 @@ In this work, we study the segregation of inertial particles of different size i
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/particle_sep.avi" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/particle_sep.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
     Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
 </div>
-
-<br/>
-
 
 <br/>
 
