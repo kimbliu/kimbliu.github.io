@@ -35,11 +35,11 @@ We further validate our single-phase model by comparing the drag reduction of a 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
+        {% include video.liquid path="assets/video/bub_profile.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true, playinline=true %}
     </div>
 </div>
 <div class="caption">
-    Oscillating dynamic air-water interface from multiphase diffuse interface simulation.
+    Video of oscillating dynamic air-water interface from multiphase diffuse interface simulation.
 </div>
 
 <br/>
