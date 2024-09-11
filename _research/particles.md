@@ -2,7 +2,7 @@
 layout: page
 title: Separation of Inertial Particles
 description:
-img:
+img: assets/img/project_preview/particles_preview.jpg
 importance: 2
 category: Research
 ---

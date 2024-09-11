@@ -2,7 +2,7 @@
 layout: page
 title: Macroscopic Forcing Method for Superhydrophobic Surfaces
 description:
-img:
+img: assets/img/project_preview/mfm_preview.jpg
 importance: 1
 category: Research
 ---
