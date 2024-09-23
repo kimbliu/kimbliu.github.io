@@ -52,7 +52,7 @@ Decreasing the thermal conductivity ratio counterintuitively increases rib heat 
     </div>
 </div>
 <div class="caption">
-    Left: Variation of rib heat transfer with wall thickness. Right: Variation of rib heat transfer with thermal conductivity raito.
+    Left: Variation of rib heat transfer with wall thickness. Right: Variation of rib heat transfer with thermal conductivity ratio.
 </div>
 
 <br/>

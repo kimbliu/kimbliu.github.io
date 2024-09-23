@@ -2,13 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-nav: false
+nav: true
 nav_order: 3
 display_categories: [Classes, Other]
 horizontal: true
 ---
-
-UNDER CONSTRUCTION
 
 <!-- pages/projects.md -->
 <div class="projects">
