@@ -21,7 +21,7 @@ We motivate the time averaging method by first examining the variation in $$c_s$
     </div>
 </div>
 <div class="caption">
-    Model coefficient computed from instantaneous fields. Left: Meneveau et al. Right: Our analysis.
+    Model coefficient computed from instantaneous fields.
 </div>
 
 <br/>

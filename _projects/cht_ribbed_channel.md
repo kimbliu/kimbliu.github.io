@@ -7,76 +7,58 @@ importance: 3
 category: Classes
 ---
 
-This project was performed in collaboration with [Carlos Gonzalez](https://cagonzal.github.io).
+This project was performed in collaboration with [Carlos Gonzalez](https://cagonzal.github.io). Following the work in [Conjugate heat transfer in a channel with staggered ribs](https://www.sciencedirect.com/science/article/pii/0017931085901425), we use Nalu, a second-order, unstructured, multiphysics flow solver from Sandia Labs, to perform conjugate heat transfer (CHT) simulations of fluid flow through a ribbed channel. We extend previous analysis by allowing the thermal conductivity ratio $$k_{solid}/k_{fluid}$$ and the channel wall thickness ($$B/D$$) to vary.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br/>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/bd05_mesh.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Mesh of ribbed channel geometry.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br/>
 
-{% raw %}
+Our Nalu simulations were validated by comparing velocity fields from to the original work. The recirculation zones behind the ribs are relatively small and the perturbation to the freestream in the wall-normal direction is limited.
 
-```html
+<br/>
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/pv_streamlines.png" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Streamlines of velocity field.
+</div>
 
-{% endraw %}
+<br/>
+
+We find that increasing wall thickness decreases therib heat transfer. The thicker wall provides a larger "capacitance" that the applied heat flux boundary condition must overcome before being exposed to the convective heat transfer of the mean channel flow.
+
+Decreasing the thermal conductivity ratio counterintuitively increases rib heat transfer. The rib heat transfer is measured at the base of the rib and not along the surface area. This increase in rib heat transfer is because, at very low thermal conducitvity ratios, the rib acts as more volume to "store" heat, rather than more surface area to convect heat. That is, more heat is transferred through the rib itself.
+
+<br/>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/Qr_vs_BD.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/Qr_vs_kr.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Variation of rib heat transfer with wall thickness. Right: Variation of rib heat transfer with thermal conductivity raito.
+</div>
+
+<br/>
+
+<p style="text-align:center;"><a href="https://kimbliu.github.io/projects/">Back to Projects</a></p>
+
+#### References
+
+Webb BW, Ramadhyani S. "Conjugate heat transfer in a channel with staggered ribs." <i>International Journal of Heat and Mass Transfer</i>, 28(9): 1679-1687, 1985.
