@@ -17,9 +17,6 @@ We motivate the time averaging method by first examining the variation in $$c_s$
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/class_projects/men_hit_local.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/class_projects/hit_cs_local.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -34,7 +31,7 @@ An Eulerian time averaging decreases spatial variation and improves correlation 
 <br/>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/class_projects/hit_rms.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -49,7 +46,7 @@ A pre-existing WMLES code for channel flow ($$Re_\tau = 180$$) was modified to i
 <br/>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/class_projects/vel_profile.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
