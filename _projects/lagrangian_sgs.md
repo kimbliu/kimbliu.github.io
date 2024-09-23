@@ -3,81 +3,73 @@ layout: page
 title: Application of Lagrangian Dynamic SGS in Wall-Modeled LES
 description: Final project for ME461 (Advanced Topics in Turbulence)
 img:
-importance: 4
+importance: 2
 category: Classes
 ---
 
-The goal of this project was to follow the procedures described in [A Lagrangian dynamic subgrid-scale model of turbulence](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/lagrangian-dynamic-subgridscale-model-of-turbulence/783398B2D0BE53C120151E4E911CA833) and evaluate the model performance for fully developed channel flow.
+The goal of this project was to follow the procedures described in [A Lagrangian dynamic subgrid-scale model of turbulence](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/lagrangian-dynamic-subgridscale-model-of-turbulence/783398B2D0BE53C120151E4E911CA833) and evaluate the model performance for fully developed channel flow. A Lagrangian time averaging method is applied to the dynamic Smagorinsky model to eliminate negative eddy viscosities in flows with inhomogeneity. The original paper tested this method for isotropic turbulence and channel flow simulated with wall-resolved LES. In this project, we evaluate the method's applicability to wall-modeled LES (WMLES).
 
+Embedded in the dynamic Smagorinsky model are two main assumptions: that the Smagorinsky coefficient $$c_s$$ does not vary significantly in space and that $$c_s$$ does not change with different filter size. In practice, these two assumptions are not always true; consequently, $$c_s$$ coefficients can be highly oscillatory and often negative, which can lead to numerical instability.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We motivate the time averaging method by first examining the variation in $$c_s$$ for forced HIT data from Shirian et al. 2022. In the figure below, the model coefficients are computed from instantaneous fields, and then averaged in two homogeneous directions. The $$c_s$$ values clearly vary in space, show low correlation between two filter sizes, and are negative in multiple locations.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<br/>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/men_hit_local.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/hit_cs_local.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Model coefficient computed from instantaneous fields. Left: Meneveau et al. Right: Our analysis.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br/>
+
+An Eulerian time averaging decreases spatial variation and improves correlation between filter widths, however the issue of negative $$c_s$$ persists.
+
+<br/>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/hit_rms.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Root mean square values of the model coefficient, as a function of time. With Eulerian averaging, the RMS values converge quickly.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br/>
 
-{% raw %}
+A pre-existing WMLES code for channel flow ($$Re_\tau = 180$$) was modified to include the Lagrangian dynamic model. Mean velocity and RMS velocity profiles in the Lagrangian averaged framework match well with expected channel statistics.
 
-```html
+<br/>
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/vel_profile.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/class_projects/rms_legend.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Left: Mean velocity profile of fully developed turbulent channel flow. Right: RMS velocities from plane averaging (dynamic Smagorinsky) and Lagrangian averaging.
+</div>
 
-{% endraw %}
+<br/>
+
+Unfortunately, our implementation of the Lagrangian model in WMLES is highly numerically unstable. The coarse grid that we are allowed with wall modeling is in conflict with the multilinear interpolation required at each time step for the Lagrangian time averaging method, and thus requires a prohibitively small timestep. For complex geometries, this is not a sustainable way of maintaining the linear approximation assumption.
+
+<p style="text-align:center;"><a href="https://kimbliu.github.io/projects/">Back to Projects</a></p>
+
+#### References
+
+Meneveau C, Lund TS, Cabot WH. "A Lagrangian dynamic subgrid-scale model of turbulence." <i>Journal of Fluid Mechanics</i>, 319: 353-385, 1996.
+
+Shirian Y, Mani A. "Eddy diffusivity operator in homogeneous isotropic turbulence." <i>Physical Review Fluids</i>, 7(5): L052601, 2022.
+
+Bae HJ, Lozano-Duran A, Bose ST, Moin P. "Dynamic slip wall model for large-eddy simulation." <i>Journal of Fluid Mechanics</i>, 859: 400-432, 2019.

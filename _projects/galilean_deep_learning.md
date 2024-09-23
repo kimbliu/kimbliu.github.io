@@ -3,7 +3,7 @@ layout: page
 title: Galilean Invariance Preserving Deep Learning for Canonical Fluid Flows
 description: Final project for CS230 (Deep Learning)
 img: assets/img/1.jpg
-importance: 3
+importance: 1
 category: Classes
 ---
 
