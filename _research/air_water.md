@@ -2,7 +2,7 @@
 layout: page
 title: Modeling of Dynamic Air-Water Interfaces for Drag Reduction
 description:
-img: assets/img/project_preview/air_water_preview.jpg
+img: assets/img/project_preview/air_water_preview.png
 importance: 1
 category: Research
 ---
