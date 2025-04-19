@@ -19,10 +19,14 @@
       institution: California Institute of Technology
       year: 2013 - 2017
       
-- title: Research Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
+  - title: Engineer
+      institution: Naval Surface Warfare Center Carderock
+      year: 2025 - Present
+      #description:
+  - title: Graduate Research Assistant
       institution: Stanford University
       year: 2017 - 2024
       description:
@@ -32,14 +36,14 @@
         - Implementation and validation of multiphase modelling of superhydrophobic surfaces and dynamic air-water interfaces
         - Evaluated pressure-driven wall-normal jets for drag reduction in channel flow and boundary layer flow
         - Developed macroscopic forcing method for superhydrophobic surfaces and studied nonlocality in slip length operator
-    - title: Undergraduate Research Fellow
-      institution: California Institute of Technology
-      year: 2016
-      description:
-        - |
-          Advisor: Professor Tim Colonius
-        - Direct numerical simulation of flow over spinning disks
-        - Analyzed effects of tip speed ratio and angle of attack on aerodynamic forces
+    # - title: Undergraduate Research Fellow
+    #   institution: California Institute of Technology
+    #   year: 2016
+    #   description:
+    #     - |
+    #       Advisor: Professor Tim Colonius
+    #     - Direct numerical simulation of flow over spinning disks
+    #     - Analyzed effects of tip speed ratio and angle of attack on aerodynamic forces
  
 - title: Publications
   type: list
@@ -61,7 +65,7 @@
     - Liu K, Mani A. Investigation of turbulent flows over superhydrophobic surfaces with oscillatory slip length. 72nd Annual Meeting of the APS Division of Fluid Dynamics. November 2019.
     - Liu K, Esmaily M, Mani A. A novel approach for separation of inertial particles. 71st Meeting of the APS Division of Fluid Dynamics. November 2018.
 
-- title: Teaching Experience
+- title: Teaching
   type: time_table
   contents:
     - title: Teaching Assistant
@@ -72,7 +76,7 @@
         - Created and graded problem sets, held weekly office hours
         - Master's level class covering analysis of numerical methods for accuracy, stability, and convergence
 
-- title: Other Experience
+- title: Other
   type: list
   contents:
     - Peer Reviewer, Physical Review Fluids (2021-Present)
